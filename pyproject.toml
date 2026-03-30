@@ -18,7 +18,7 @@ license = { file = "LICENSE" }
 
 readme = "README.md"
 
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 
 keywords = [
     "python",
@@ -78,8 +78,7 @@ docs = ["sphinx", "sphinx_rtd_theme", "sphinx-autorun"]
 
 requires = [
     "setuptools",
-    "oldest-supported-numpy",
-    # "numpy == 1.17.4",
+    "numpy>=2.0",
 ]
 build-backend = "setuptools.build_meta"
 
